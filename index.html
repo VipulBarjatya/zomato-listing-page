@@ -1,0 +1,203 @@
+<html>
+
+<head>
+    <title>Listing Page</title>
+    <link rel="stylesheet" href="listing.css" />
+</head>
+
+<body>
+    <header>
+        <div id="brand">
+            Developer Funnel
+        </div>
+        <div id="social">
+            <a href="www.facebook.com" target="_blank">
+                <img src="https://i.ibb.co/dtzG625/facebook.png" alt="fb" class="socialImg" />
+            </a>
+            <a href="www.facebook.com" target="_blank">
+                <img src="https://i.ibb.co/19H5LvT/insta.png" alt="fb" class="socialImg" />
+            </a>
+            <a href="www.facebook.com" target="_blank">
+                <img src="https://i.ibb.co/w07K2Vn/youtube1.png" alt="fb" class="socialImg" />
+            </a>
+        </div>
+    </header>
+    <div id="container">
+        <div class="filter">
+            <div class="filter-heading">
+                <h2>Filters</h2>
+            </div>
+            <div class="filter-options">
+                <div class="filter-1">
+                    <h2>Cuisine Filter</h2>
+                    <div class="options">
+                        <div>
+                            <input type="radio" id="north-indian" name="cuisine" value="north-indian" checked>
+                            <label for="north-indian">North Indian</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="south-indian" name="cuisine" value="south-indian">
+                            <label for="south-indian">South Indian</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="chinese" name="cuisine" value="chinese">
+                            <label for="chinese">Chinese</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="fast-food" name="cuisine" value="fast-food">
+                            <label for="fast-food">Fast Food</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="street-food" name="cuisine" value="street-food">
+                            <label for="street-food">Street Food</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-2">
+                    <h2>Cost Filter</h2>
+                    <div class="options">
+                        <div>
+                            <input type="radio" id="100-300" name="cost" value="100-300" checked>
+                            <label for="100-300">100-300</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="301-600" name="cost" value="301-600">
+                            <label for="301-600">301-600</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="601-1000" name="cost" value="601-1000">
+                            <label for="601-1000">601-1000</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="1001-2000" name="cost" value="1001-2000">
+                            <label for="1001-2000">1001-2000</label>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- <input type="radio" />100-300
+            <input type="checkbox" />100-300 -->
+        </div>
+
+
+        <div class="content">
+            <!-- <a href="../details/details.html">Details Page</a> -->
+
+            <input type="search" name="" id="" placeholder="Enter Restaurant Name" class="search">
+
+            <h4>Result for</h4>
+            <h4>Number of Results: 5</h4>
+
+            <div class="listings">
+                <div class="listing">
+                    <div class="img-box">
+                        <img src="images/pexels-engin-akyurt-1437267.jpg" alt="" class="img">
+                    </div>
+                    <div class="text-box">
+                        <div class="rest-name">AMA Cafe</div>
+                        <div class="rest-details">
+                            <div class="rest-address">House 6, New Colony, Majnu ka Tilla, New Delhi</div>
+                            <div class="rest-rating">Average</div>
+                            <div class="rest-price">Rs.450</div>
+                            <a href="#" class=" btn btn-1">Lunch</a>
+                            <a href="#" class=" btn btn-2">Nightlife</a>
+                        </div>
+                        <div class="rest-options">
+                            <a href="#" class=" btn btn-3">North Indian</a>
+                            <a href="#" class=" btn btn-4">Chinese</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="listing">
+                    <div class="img-box">
+                        <img src="images/pexels-marvin-ozz-2474658.jpg" alt="" class="img">
+                    </div>
+                    <div class="text-box">
+                        <div class="rest-name">Chandni Chowk 2</div>
+                        <div class="rest-details">
+                            <div class="rest-address">Jeevan Bheema Nagar, Banglore</div>
+                            <div class="rest-rating">Poor</div>
+                            <div class="rest-price">Rs.370</div>
+                            <a href="#" class=" btn btn-1">Snacks</a>
+                            <a href="#" class=" btn btn-2">Lunch</a>
+                        </div>
+                        <div class="rest-options">
+                            <a href="#" class=" btn btn-3">North Indian</a>
+                            <a href="#" class=" btn btn-4">South Indian</a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="listing">
+                    <div class="img-box">
+                        <img src="images/pexels-engin-akyurt-1552635.jpg" alt="" class="img">
+                    </div>
+                    <div class="text-box">
+                        <div class="rest-name">Domino's Pizza</div>
+                        <div class="rest-details">
+                            <div class="rest-address">Ashok Vihar Phase 3, New Delhi</div>
+                            <div class="rest-rating">Very Good</div>
+                            <div class="rest-price">Rs.666</div>
+                            <a href="#" class=" btn btn-1">Snacks</a>
+                            <a href="#" class=" btn btn-2">Lunch</a>
+                        </div>
+                        <div class="rest-options">
+                            <a href="#" class=" btn btn-3">Italian Cuisine</a>
+                            <a href="#" class=" btn btn-4">Fast Food</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- <div class="listing">
+
+                    <img src="images/pexels-rajesh-tp-1600711.jpg" alt="" class="img">
+
+                    <div class="text-box">
+                        <div class="rest-name">AMA Cafe</div>
+                        <div class="rest-details">
+                            <div class="rest-address">House 6, New Colony, Majnu ka Tilla, New Delhi</div>
+                            <div class="rest-rating">Average</div>
+                            <div class="rest-price">Rs.450</div>
+                            <a href="#" class=" btn btn-1">Lunch</a>
+                            <a href="#" class=" btn btn-2">Nightlife</a>
+                        </div>
+                        <div class="rest-options">
+                            <a href="#" class=" btn btn-3">North Indian</a>
+                            <a href="#" class=" btn btn-4">Chinese</a>
+                        </div>
+
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <hr>
+        <h3>&copy; Developer Funnel</h3>
+        <div class="fotDiv">
+            <ul>
+                <li>Contact Us</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+        <div class="fotDiv">
+            <ul>
+                <li>Contact Us</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+        <div class="fotDiv noBorder">
+            <ul>
+                <li>Contact Us</li>
+                <li>About Us</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
